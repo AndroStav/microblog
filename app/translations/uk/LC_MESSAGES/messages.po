@@ -1,0 +1,242 @@
+# Ukrainian translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-02-07 01:19+0200\n"
+"PO-Revision-Date: 2025-02-07 01:03+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: app/__init__.py:23
+msgid "Please log in to access this page."
+msgstr "Будь ласка, увійдіть, щоб отримати доступ до цієї сторінки."
+
+#: app/forms.py:10 app/forms.py:16 app/forms.py:46
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: app/forms.py:11 app/forms.py:18 app/forms.py:40
+msgid "Password"
+msgstr "Пароль"
+
+#: app/forms.py:12
+msgid "Remember Me"
+msgstr "Запам'ятати мене"
+
+#: app/forms.py:13 app/routes.py:64 app/templates/login.html:2
+msgid "Sign In"
+msgstr "Увійти"
+
+#: app/forms.py:17 app/forms.py:36
+msgid "Email"
+msgstr "Електронна пошта"
+
+#: app/forms.py:20 app/forms.py:42
+msgid "Repeat Password"
+msgstr "Повторіть пароль"
+
+#: app/forms.py:21 app/routes.py:83 app/templates/register.html:5
+msgid "Register"
+msgstr "Зареєструватися"
+
+#: app/forms.py:27 app/forms.py:59
+msgid "Please use a different username."
+msgstr "Будь ласка, використайте інше ім'я користувача."
+
+#: app/forms.py:33
+msgid "Please use a different email address."
+msgstr "Будь ласка, використайте іншу електронну адресу."
+
+#: app/forms.py:37 app/forms.py:43
+msgid "Request Password Reset"
+msgstr "Скинути пароль"
+
+#: app/forms.py:47
+msgid "About me"
+msgstr "Про мене"
+
+#: app/forms.py:48 app/forms.py:62 app/forms.py:67
+msgid "Submit"
+msgstr "Надіслати"
+
+#: app/forms.py:65
+msgid "Say something"
+msgstr "Скажіть щось"
+
+#: app/routes.py:21
+msgid "Your post is now live!"
+msgstr "Ваш допис опубліковано!"
+
+#: app/routes.py:30 app/templates/base.html:28
+msgid "Home"
+msgstr "Головна"
+
+#: app/routes.py:45 app/templates/base.html:31
+msgid "Explore"
+msgstr "Досліджувати"
+
+#: app/routes.py:57
+msgid "Invalid username or password"
+msgstr "Неправильне ім'я користувача або пароль"
+
+#: app/routes.py:81
+msgid "Congratulations, you are now a registered user!"
+msgstr "Вітаємо, тепер ви зареєстрований користувач!"
+
+#: app/routes.py:95
+msgid "Check your email for the instructions to reset your password"
+msgstr "Перевірте свою електронну пошту для отримання інструкцій щодо скидання пароля"
+
+#: app/routes.py:98 app/templates/reset_password_request.html:4
+msgid "Reset Password"
+msgstr "Скидання пароля"
+
+#: app/routes.py:111
+msgid "Your password has been reset."
+msgstr "Ваш пароль було скинуто."
+
+#: app/routes.py:140
+msgid "Your changes have been saved."
+msgstr "Ваші зміни збережено."
+
+#: app/routes.py:145 app/templates/edit_profile.html:4
+msgid "Edit Profile"
+msgstr "Редагувати профіль"
+
+#: app/routes.py:162 app/routes.py:183
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Користувача %(username)s не знайдено."
+
+#: app/routes.py:165
+msgid "You cannot follow yourself!"
+msgstr "Ви не можете стежити за собою!"
+
+#: app/routes.py:169
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Ви стежите за %(username)s!"
+
+#: app/routes.py:186
+msgid "You cannot unfollow yourself!"
+msgstr "Ви не можете відписатися від себе!"
+
+#: app/routes.py:190
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "Ви не стежите за %(username)s."
+
+#: app/templates/404.html:4
+msgid "File Not Found"
+msgstr "Файл не знайдено"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "Назад"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Сталася неочікувана помилка"
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "Адміністратора повідомлено. Вибачте за незручності!"
+
+#: app/templates/_post.html:19
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s сказав %(when)s"
+
+#: app/templates/base.html:10
+msgid "Welcome to Microblog"
+msgstr "Ласкаво просимо до Microblog"
+
+#: app/templates/base.html:37
+msgid "Login"
+msgstr "Вхід"
+
+#: app/templates/base.html:42
+msgid "Profile"
+msgstr "Профіль"
+
+#: app/templates/base.html:45
+msgid "Logout"
+msgstr "Вийти"
+
+#: app/templates/index.html:4
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Привіт, %(username)s!"
+
+#: app/templates/index.html:20 app/templates/user.html:37
+msgid "There are no posts right now."
+msgstr "Наразі немає дописів."
+
+#: app/templates/index.html:29 app/templates/user.html:47
+msgid "Newer posts"
+msgstr "Новіші дописи"
+
+#: app/templates/index.html:34 app/templates/user.html:52
+msgid "Older posts"
+msgstr "Старіші дописи"
+
+#: app/templates/login.html:22
+msgid "New User?"
+msgstr "Новий користувач?"
+
+#: app/templates/login.html:22
+msgid "Click to Register!"
+msgstr "Натисніть, щоб зареєструватися!"
+
+#: app/templates/login.html:24
+msgid "Forgot Your Password?"
+msgstr "Забули пароль?"
+
+#: app/templates/login.html:25
+msgid "Click to Reset It"
+msgstr "Натисніть, щоб скинути його"
+
+#: app/templates/reset_password.html:4
+msgid "Reset Your Password"
+msgstr "Скидання вашого пароля"
+
+#: app/templates/user.html:9
+msgid "Online"
+msgstr "Онлайн"
+
+#: app/templates/user.html:10
+msgid "Last seen on:"
+msgstr "Останній раз онлайн:"
+
+#: app/templates/user.html:14
+msgid "followers"
+msgstr "читачі"
+
+#: app/templates/user.html:14
+msgid "following"
+msgstr "відстежуються"
+
+#: app/templates/user.html:16
+msgid "Edit your profile"
+msgstr "Редагувати ваш профіль"
+
+#: app/templates/user.html:21
+msgid "Follow"
+msgstr "Стежити"
+
+#: app/templates/user.html:28
+msgid "Unfollow"
+msgstr "Не стежити"
+
