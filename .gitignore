@@ -1,6 +1,7 @@
-.flaskenv
-app.db
 venv/
 logs/
 __pycache__/
 */__pycache__/
+.flaskenv
+app.db
+workspace.code-workspace
